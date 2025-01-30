@@ -2,14 +2,14 @@ const express = require("express");
 const mongoose = require("mongoose");
 const { v4: uuidv4 } = require("uuid");
 const cors = require("cors");
-const bcrypt = require('bcryptjs');
+const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
 const app = express();
 app.use(express.json());
 app.use(cors());
 
-const port = process.env.PORT || 3000;
+const port = 3000;
 const mongourl = "mongodb+srv://janarthani39:Jana14@cluster0.lncan.mongodb.net/TurfManager";
 
 mongoose
