@@ -12,10 +12,10 @@
   },
   "name": "turf-manager-backend",
   "version": "1.0.0",
-  "main": "Sports.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Sports.js"
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
